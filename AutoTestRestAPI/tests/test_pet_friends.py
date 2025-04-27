@@ -1,12 +1,8 @@
 import os
-
 import pytest
-
 from api import PetFriends
 from settings import valid_email, valid_password
-
 pf = PetFriends()
-
 
 def test_add_without_photo():
     """Тест проверяет добавление нового питомца без фотографии"""
