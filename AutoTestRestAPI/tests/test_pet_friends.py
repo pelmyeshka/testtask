@@ -19,7 +19,7 @@ def test_add_without_photo():
     )
     assert status == 200
     assert result['name'] == 'гавс'
-    assert result['pet_photo'] == ""
+    assert result['pet_photo'] == ''
 
 
 def test_add_pet_with_empty_fields():
