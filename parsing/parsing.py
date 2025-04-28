@@ -10,7 +10,7 @@ def parse_imdb_top200():
     }
 
     try:
-        print("Получаем IMDb Top 200...")
+        print("Получаем IMDb Top 200")
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
